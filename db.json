@@ -87,7 +87,7 @@
     {
       "id": 1,
       "saleId": 1,
-      "orderedBy": 3,
+      "orderedBy": 1,
       "acceptedBy": 1,
       "description": "Necesito esta orden lo mas antes posible",
       "quantity": 10,
@@ -99,7 +99,7 @@
     {
       "id": 2,
       "saleId": 2,
-      "orderedBy": 2,
+      "orderedBy": 1,
       "acceptedBy": 1,
       "description": "La orden es muy grande, voy a dar mi dirección",
       "quantity": 200,
@@ -111,7 +111,7 @@
     {
       "id": 3,
       "saleId": 1,
-      "orderedBy": 2,
+      "orderedBy": 1,
       "acceptedBy": 1,
       "description": "Espero que los productos sean de buena calidad",
       "quantity": 10,
