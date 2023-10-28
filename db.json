@@ -1,0 +1,137 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Juan",
+      "email": "Juan@gmail.com",
+      "password": "Juan123",
+      "rol": "farmer",
+      "photo": "https://media.istockphoto.com/id/1199175531/photo/outdoor-portrait-of-smiling-spanish-man-in-mid-20s.jpg?s=170667a&w=0&k=20&c=6mDr4Fkq-ECwldusAzBRG21qenqKvtqLVXCEwHguGGY="
+    },
+    {
+      "id": 2,
+      "username": "Jose",
+      "email": "Jose@gmail.com",
+      "password": "Jose123",
+      "rol": "merchant",
+      "photo": "https://img.freepik.com/fotos-premium/chico-adolescente-atractivo-parque_58409-13244.jpg?w=2000"
+    },
+    {
+      "id": 3,
+      "username": "Hana",
+      "email": "Hana@gmail.com",
+      "password": "Hana123",
+      "rol": "merchant",
+      "photo": "https://img.freepik.com/foto-gratis/mujer-hermosa-joven-mirando-camara-chica-moda-verano-casual-camiseta-blanca-pantalones-cortos-hembra-positiva-muestra-emociones-faciales-modelo-divertido-aislado-amarillo_158538-15796.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Papas",
+      "description": "Papas haradas durante bastante tiempo",
+      "distance": "1 metro",
+      "depth": "2 metros",
+      "weather": "Seco",
+      "groundType": "Arenoso",
+      "season": "Verano",
+      "unitPrice": 1.5,
+      "imageUrl": "https://github.com/upc-pre-202302-GreatMinds-SW51/Informe-Final_OpenSource/assets/104078975/ce40fc4a-b351-420d-a06e-14304018bed5"
+    },
+    {
+      "id": 2,
+      "name": "Cerezos",
+      "description": "Cereza recontra roja",
+      "distance": "1 metro",
+      "depth": "2 metros",
+      "weather": "Seco",
+      "groundType": "Arenoso",
+      "season": "Verano",
+      "unitPrice": 2.5,
+      "imageUrl": "https://github.com/upc-pre-202302-GreatMinds-SW51/Informe-Final_OpenSource/assets/104078975/f481402c-de81-4d95-a694-82fab273adfa"
+    },
+    {
+      "id": 3,
+      "name": "Arroz",
+      "description": "Arroz bien plantado",
+      "distance": "1 metro",
+      "depth": "2 metros",
+      "weather": "Seco",
+      "groundType": "Arenoso",
+      "season": "Verano",
+      "unitPrice": 1.5,
+      "imageUrl": "https://github.com/upc-pre-202302-GreatMinds-SW51/Informe-Final_OpenSource/assets/104078975/19f2c725-e39b-4319-84c3-efed243898dd"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Siembra de maíz",
+      "description": "Preparar el terreno y sembrar maíz",
+      "start_date": "2020-04-15",
+      "finish_date": "2020-04-20"
+    },
+    {
+      "name": "Cosecha de trigo",
+      "description": "Cosechar el trigo maduro del campo",
+      "start_date": "2020-06-10",
+      "finish_date": "2020-06-15"
+    },
+    {
+      "name": "Cuidado del ganado",
+      "description": "Alimentar y cuidar el ganado en la finca",
+      "start_date": "2020-07-01",
+      "finish_date": "2020-07-10"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "saleId": 1,
+      "orderedBy": 3,
+      "acceptedBy": 1,
+      "description": "Necesito esta orden lo mas antes posible",
+      "quantity": 10,
+      "status": "Finalized",
+      "orderedDate": "2023-05-19",
+      "totalPrice": 25,
+      "paymentMethod": "mastercard"
+    },
+    {
+      "id": 2,
+      "saleId": 2,
+      "orderedBy": 2,
+      "acceptedBy": 1,
+      "description": "La orden es muy grande, voy a dar mi dirección",
+      "quantity": 200,
+      "status": "Finalized",
+      "orderedDate": "2023-05-20",
+      "totalPrice": 30,
+      "paymentMethod": "mastercard"
+    },
+    {
+      "id": 3,
+      "saleId": 1,
+      "orderedBy": 2,
+      "acceptedBy": 1,
+      "description": "Espero que los productos sean de buena calidad",
+      "quantity": 10,
+      "status": "Finalized",
+      "orderedDate": "2023-04-29",
+      "totalPrice": 300,
+      "paymentMethod": "mastercard"
+    }
+  ],
+  "crops": [
+    {
+      "undergrowth": true,
+      "fertilize": false,
+      "oxygenate": true,
+      "lines": false,
+      "holes": true,
+      "watered": "3",
+      "pestcleaning": "5",
+      "id": 1
+    }
+  ]
+ 
+}
